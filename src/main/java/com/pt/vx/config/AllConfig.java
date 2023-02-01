@@ -87,7 +87,7 @@ public class AllConfig {
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
-
+/*
         userList.add(getUser(
                 "odbAL6wkTomutNUh1D230zLNbZQg-cl0ryoSY",//扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "JEy22NmRpDA-Cpe34nJYJHO5fUuQfjNWGNk9Fj1Gw9k",//要给这个人发送的模板ID
@@ -100,7 +100,7 @@ public class AllConfig {
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
     }
-
+*/
     public static final List<User> userList = new ArrayList<>();
     static {
         init();
