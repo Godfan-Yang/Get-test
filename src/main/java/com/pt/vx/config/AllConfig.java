@@ -82,12 +82,12 @@ public class AllConfig {
                 "凡凡",//咋称呼这个人
                 "湖北省天门市",//这个人的详细地址
                 "天门",//这个人在的城市
-                new BirthDay(1997,11,1,false,false,"生日快乐哦~~"),
+                new BirthDay(1996,11,1,false,false,"生日快乐哦~~"),
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
-/*
+
         userList.add(getUser(
                 "odbAL6wkTomutNUh1D230zLNbZQg-cl0ryoSY",//扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "JEy22NmRpDA-Cpe34nJYJHO5fUuQfjNWGNk9Fj1Gw9k",//要给这个人发送的模板ID
@@ -98,7 +98,7 @@ public class AllConfig {
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
-        ));*/
+        ));
     }
 
     public static final List<User> userList = new ArrayList<>();
