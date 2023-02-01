@@ -98,9 +98,9 @@ public class AllConfig {
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
-        ));
+        ));*/
     }
-*/
+
     public static final List<User> userList = new ArrayList<>();
     static {
         init();
