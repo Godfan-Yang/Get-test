@@ -22,6 +22,5 @@ public class  VxMessageMain {
                 Thread.sleep(2333);
             }
         }
-
     }
 }
