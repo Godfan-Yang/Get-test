@@ -89,7 +89,7 @@ public class AllConfig {
         ));
 
         userList.add(getUser(
-                "odbAL6wkTomutNUh1D230zLNbZQg-cl0ryoSY",//扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "odbAL6wkTomutNUh1D230zLNbZQg",//扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "JEy22NmRpDA-Cpe34nJYJHO5fUuQfjNWGNk9Fj1Gw9k",//要给这个人发送的模板ID
                 "曾紫嫣",//咋称呼这个人
                 "湖北省天门市",//这个人的详细地址
