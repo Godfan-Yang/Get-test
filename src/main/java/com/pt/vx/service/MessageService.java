@@ -61,7 +61,7 @@ public class MessageService {
             }else {
                 CompletableFuture<Void> setHistoryToday = CompletableFuture.runAsync(() -> setHistoryToday(map), POOL);
                 CompletableFuture<Void> setQinghua = CompletableFuture.runAsync(()->  setQinghua(map),POOL);
-                CompletableFuture<Void> setDongman =CompletableFuture.runAsync(()->  setDongman(map),POOL);
+                CompletableFuture<Void> setDongman = CompletableFuture.runAsync(()->  setDongman(map),POOL);
                 CompletableFuture<Void> setTiangou = CompletableFuture.runAsync(()->  setTiangou(map),POOL);
                 CompletableFuture<Void> setWorldRead = CompletableFuture.runAsync(()->  setWorldRead(map),POOL);
                 CompletableFuture<Void> setRandomRead = CompletableFuture.runAsync(()->  setRandomRead(map),POOL);

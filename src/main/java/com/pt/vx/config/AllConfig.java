@@ -62,11 +62,11 @@ public class AllConfig {
     public static final FunctionConfig open_tiangou = new FunctionConfig(false,"#FF7F00"); //是否开启舔狗日记
     public static final FunctionConfig open_world_read = new FunctionConfig(false,"#FF7F00"); //是否开启世界新闻
     public static final FunctionConfig open_random_read = new FunctionConfig(false,"#FF7F00"); //是否开启随机短句
-    public static final FunctionConfig open_wozairenjian = new FunctionConfig(false,"#FF7F00"); //是否开启散文集我在人间凑日子
+    public static final FunctionConfig open_wozairenjian = new FunctionConfig(true,"#FF7F00"); //是否开启散文集我在人间凑日子
     public static final FunctionConfig open_poetry = new FunctionConfig(false,"#FF7F00"); //是否开启随机诗句(暂时无法使用了)
     public static final FunctionConfig open_english = new FunctionConfig(false,"#FF7F00"); //是否开启每日英语(暂时无法使用了)
     public static final FunctionConfig open_miyu = new FunctionConfig(false,"#FF7F00"); //是否开启谜语(暂时无法使用了)
-    public static final FunctionConfig open_horoscope= new FunctionConfig(false,"#FF7F00"); //是否开启星座解析(只计算第一个birthDay的星座)
+    public static final FunctionConfig open_horoscope= new FunctionConfig(true,"#FF7F00"); //是否开启星座解析(只计算第一个birthDay的星座)
     public static final FunctionConfig random_module = new FunctionConfig(false,"#FF7F00"); //随机一个开启了的额外类型消息(开启以后，只会推送随机的)
 
     private static void init(){
@@ -78,7 +78,7 @@ public class AllConfig {
         //new BirthDay()里面代表[年]、[月]、[日]、[是否是农历(true为农历、false为公历)]、[是否统计天数(true为统计，false为倒计时)]、[倒计时到0天提示信息(如果类型为统计可以不填)]
         userList.add(getUser(
                 "odbAL60OrSB6kxLL9AE-cl0ryoSY",//扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "aqoLSnW_YUPr0GwPbZogazKGJNsCqyYuGL2WK4-P-II",//要给这个人发送的模板ID
+                "mrwo8Tn-U7xaOT6zh0UfnLOG3L1ta1qgnjZaZ4234t8",//要给这个人发送的模板ID
                 "凡凡",//咋称呼这个人
                 "湖北省天门市",//这个人的详细地址
                 "天门",//这个人在的城市
@@ -90,7 +90,7 @@ public class AllConfig {
 
         userList.add(getUser(
                 "odbAL6wkTomutNUh1D230zLNbZQg",//扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "JEy22NmRpDA-Cpe34nJYJHO5fUuQfjNWGNk9Fj1Gw9k",//要给这个人发送的模板ID
+                "mrwo8Tn-U7xaOT6zh0UfnLOG3L1ta1qgnjZaZ4234t8",//要给这个人发送的模板ID
                 "曾紫嫣",//咋称呼这个人
                 "湖北省天门市",//这个人的详细地址
                 "天门",//这个人在的城市
